@@ -6,7 +6,7 @@ In this problem statement, we will be predicting the costs of used cars using gi
 
 #### About Dataset :
 
-Size of training set: 6,019 records
+Size of Dataset: 6,019 records
 
 #### FEATURES:
 
