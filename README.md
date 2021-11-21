@@ -1,7 +1,7 @@
 # Costs-Of-Used-Cars-Prediction
 
 ### Problem Statement : Predicting The Costs Of Used Cars
-### this problem statement taken from Hackathon By Imarticus Learning
+## this problem statement is taken from Hackathon By Imarticus Learning
 
 ## Solution :
 #### While selling any used car owner doesn't know the correct market price of his/her car, if the owner sells that car at a lower price than the market price then it is a loss for the owner, to overcome this problem I have built an AI/ML-based Model in such a way that, it can predict the correct price based on market price data, so that owner can sell his/her car at the correct price with which buyer & seller both will be happy with the deal.
