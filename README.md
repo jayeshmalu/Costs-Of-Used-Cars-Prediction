@@ -41,7 +41,7 @@ Price: The price of the used car in INR Lakhs.
 
 After analysis we encoded some features, added some more features & dropped some features
 
-#### Solution :
+#### Model Building :
 So after preparing dataset & Analysis of data, now to accelerate the process of model selection we are used pycaret library to find best model on the basis of MAE, MSE, RMSE, R2, RMSLE, MAPE
 Selected model : Extra Trees Regressor with Accuracy of 97% by tunning some hyperparameter
 
