@@ -44,9 +44,9 @@ So after preparing dataset & Analysis of data, now to accelerate the process of 
 Selected model : Extra Trees Regressor with Accuracy of 97% by tunning some hyperparameter
 
 #### Notebooks:
-Car Price Prediction - Analysis.ipynb  -- Analysis notebook
-Car Price Prediction - Pycaret.ipynb  -- For finding best model
-Car Price Prediction - SK-Learn.ipynb  -- we used sk-learn library to create Extra Trees Regressor model
+##### Car Price Prediction - Analysis.ipynb  -- Analysis notebook
+##### Car Price Prediction - Pycaret.ipynb  -- For finding best model
+##### Car Price Prediction - SK-Learn.ipynb  -- we used sk-learn library to create Extra Trees Regressor model
 
 #### Model:
 car_price_prediction_model.pkl  --  Trained model with 97% Accuracy, you can get this after running Car Price Prediction - Pycaret.ipynb
