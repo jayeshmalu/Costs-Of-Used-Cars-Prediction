@@ -1,5 +1,5 @@
 # Costs-Of-Used-Cars-Prediction
-### Problem Statement taken from : Hackathon By Imarticus Learning
+### Problem Statement took from : Hackathon By Imarticus Learning
 ### Problem Statement : Predicting The Costs Of Used Cars
 
 In this problem statement, we will be predicting the costs of used cars using given the dataset, which is collected from various sources and distributed across various locations in India.
