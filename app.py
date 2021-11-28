@@ -270,4 +270,4 @@ def handle_submit(n_submit,example_Kilometers_Driven,Owner_Type,example_Mileage,
     return prediction
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run_server(debug=True)
