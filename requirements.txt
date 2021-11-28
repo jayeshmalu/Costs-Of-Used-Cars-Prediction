@@ -6,4 +6,3 @@ Flask
 pandas
 numpy
 joblib
-zipfile
