@@ -255,12 +255,14 @@ def handle_submit(n_submit,example_Kilometers_Driven,Owner_Type,example_Mileage,
         if Fuel_Type == 'CNG':
             Fuel_Type_CNG =1
             
+        
         archive = zipfile.ZipFile('car_price_prediction_model.zip', 'r')
+        #imgfile = archive.open('img_01.png')
         et_model1 = archive.open('car_price_prediction_model.pkl')
 
         et_model = joblib.load(et_model1)
-        
-        #et_model = joblib.load('car_price_prediction_model.pkl')
+
+#         et_model = joblib.load('car_price_prediction_model.pkl')
 
         #prediction = np.round(et_model.predict([[41000,1.00,19.67,1582,126,5,12.5,6,496,63,179,10,1,0,1,0,0]]))
         prediction = np.round(et_model.predict([[example_Kilometers_Driven,Owner_Type,example_Mileage,example_Engine,example_Power,example_Seats,example_New_Price,example_Used_Years,e_Name,e_Name1,e_Name2,Location,Transmission,Fuel_Type_CNG,Fuel_Type_Diesel,Fuel_Type_LPG,Fuel_Type_Petrol]]),2)
